@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity() {
                     null ->{
                         Log.w("State", "Estado Inesperado: null")
                     }
+
                 }
             }
         }
@@ -63,6 +64,7 @@ class MainActivity : ComponentActivity() {
 }
 
 
+@Preview
 @Composable
 fun ToolbarPreview(){
     CustomToolbar(

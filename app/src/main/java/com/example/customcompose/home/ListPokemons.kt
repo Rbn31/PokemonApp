@@ -33,14 +33,14 @@ fun ShowListPokemons(
                     .fillMaxWidth()
                     .padding(vertical = 8.dp)
             ) {
-                AsyncImage(
-                    model = pokemon.url,
-                    contentDescription = "Pokemon Image",
-                    modifier = Modifier
-                        .size(100.dp)
-                        .align(Alignment.CenterHorizontally),
-                    contentScale = ContentScale.Fit
-                )
+//                AsyncImage(
+//                    model = pokemon.url,
+//                    contentDescription = "Pokemon Image",
+//                    modifier = Modifier
+//                        .size(100.dp)
+//                        .align(Alignment.CenterHorizontally),
+//                    contentScale = ContentScale.Fit
+//                )
 
                 Text(
                     text = "Name: ${pokemon.name}",

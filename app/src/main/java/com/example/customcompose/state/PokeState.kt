@@ -7,6 +7,5 @@ import com.example.customcompose.data.SpritesDataResponse
 sealed class PokeState {
     object Loading : PokeState()
     data class SuccessGetListNames(val pokelistNames: List<PokeDataResponse>): PokeState()
-    data class SuccessGetListSprites(val pokelist: SpritesDataResponse): PokeState()
     data class Error(val message: String): PokeState()
 }
